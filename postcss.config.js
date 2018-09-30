@@ -7,5 +7,5 @@ module.exports = {
         tailwindcss('./tailwind.js'),
         require('autoprefixer'),
         // ...
-      ]
-  }
+    ]
+}

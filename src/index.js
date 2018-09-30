@@ -1,13 +1,10 @@
-import _ from 'lodash';
-import './style.css';
+/* eslint no-unused-vars: "off" */
+import _ from 'lodash'
+import './style.css'
+import Vue from 'vue'
+import App from './App.vue'
 
-function component() {
-    // let element = document.createElement('div');
-  
-    // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    // element.classList.add('container');
-  
-    // return element;
-  }
-  
-  document.body.appendChild(component());
+(() => new Vue({ // no linter directive need anymore
+  el: '#app',
+  render: h => h(App)
+}))()
