@@ -14,9 +14,16 @@
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
+    "cssnano": "^4.1.4",
+    "handlebars": "^4.0.12",
+    "handlebars-loader": "^1.7.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.0.7",
     "style-loader": "^0.23.0",
+    "sugarss": "^2.0.0",
     "tailwindcss": "^0.6.6",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
