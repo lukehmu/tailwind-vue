@@ -1,7 +1,7 @@
 <template>
   <div class="bg-blue">
-    <h1>Hello World!</h1>
-    <hello-component name="LUKE" />
+    <h1>{{ intro }}</h1>
+    <hello-component name="Ruth" />
   </div>
 </template>
 
@@ -10,6 +10,13 @@ import HelloComponent from './components/HelloComponent.vue'
 export default {
   components: {
     HelloComponent
+  },
+  props: {
+    intro: {
+      type: String,
+      // value: 'Intro text'
+      default: 'Intro text'
+    }
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-white">Hello {{ name }}!</h1>
+  <h1 class="text-white">Hello <span class="italic">{{ name }} </span>!</h1>
 </template>
 
 <script>

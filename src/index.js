@@ -11,8 +11,6 @@ import writeLog from './logger.js'
 }))()
 
 if (module.hot) {
-  module.hot.accept('./logger.js', function () {
-    console.log('Accepting the updated printMe module!')
-    writeLog()
-  })
+  // accept all changes, evaluate the whole js file
+  module.hot.accept()
 }

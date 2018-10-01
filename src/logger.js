@@ -1,3 +1,3 @@
 export default function writeLog () {
-  console.log('running writeLog function 2')
+  console.log('1 running writeLog function 4')
 }
