@@ -4,7 +4,7 @@
   "description": "Testing tailwind project",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Tests to come?\" && exit 0",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",
