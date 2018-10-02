@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/lukehmu/tailwind-vue.svg?branch=master)](https://travis-ci.org/lukehmu/tailwind-vue)
 # tailwind-vue
 ```
 npm install
