@@ -1,7 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
-const webpack = require('webpack')
 const {
   VueLoaderPlugin
 } = require('vue-loader')
@@ -20,29 +19,10 @@ module.exports = {
       title: 'Handlebars template',
       template: './src/index.html'
     }),
-    new webpack.HotModuleReplacementPlugin(),
     new VueLoaderPlugin()
   ],
-  // devtool: 'inline-source-map',
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
-    hot: true
-  },
   module: {
     rules: [{
-      test: /\.(css|pcss)$/,
-      use: [
-        'style-loader',
-        {
-          loader: 'css-loader',
-          options: {
-            importLoaders: 1
-          }
-        },
-        'postcss-loader'
-      ]
-    },
-    {
       test: /\.handlebars$/,
       loader: 'handlebars-loader'
     },

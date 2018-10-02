@@ -3,7 +3,6 @@ import _ from 'lodash'
 import './style.pcss'
 import Vue from 'vue'
 import App from './App.vue'
-import writeLog from './logger.js'
 
 (() => new Vue({ // no linter directive need anymore
   el: '#app',
