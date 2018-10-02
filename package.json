@@ -1,5 +1,8 @@
 {
   "name": "tailwind",
+  "sideEffects": [
+    "./src/style.pcss"
+  ],
   "version": "1.0.0",
   "description": "Testing tailwind project",
   "private": true,
@@ -40,6 +43,7 @@
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.0.7",
+    "purgecss-webpack-plugin": "^1.3.0",
     "style-loader": "^0.23.0",
     "sugarss": "^2.0.0",
     "tailwindcss": "^0.6.6",

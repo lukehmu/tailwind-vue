@@ -23,10 +23,6 @@ module.exports = {
   ],
   module: {
     rules: [{
-      test: /\.handlebars$/,
-      loader: 'handlebars-loader'
-    },
-    {
       test: /\.vue$/,
       loader: 'vue-loader'
     },
