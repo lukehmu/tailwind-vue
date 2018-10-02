@@ -30,7 +30,7 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.css$/,
+      test: /\.(css|pcss)$/,
       use: [
         'style-loader',
         {

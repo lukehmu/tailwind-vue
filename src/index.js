@@ -1,6 +1,6 @@
 /* eslint no-unused-vars: "off" */
 import _ from 'lodash'
-import './style.css'
+import './style.pcss'
 import Vue from 'vue'
 import App from './App.vue'
 import writeLog from './logger.js'
